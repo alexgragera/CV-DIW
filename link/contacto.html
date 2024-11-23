@@ -20,12 +20,6 @@
             margin-bottom: 20px;
         }
 
-        img {
-            width: 100px;
-            height: 100px;
-            object-fit: cover;
-        }
-
         input::placeholder, 
         textarea::placeholder {
             color: white !important;
@@ -58,17 +52,14 @@
     </style>
 </head>
 <body>
-    <div class="container mt-5">
-        <h1 class="text-center">Contacto</h1>
-        <div class="text-center mb-4">
-            <img src="../img/contacto.png" alt="Experiencia laboral" class="rounded-circle mb-4">
-        </div>
+    <div class="container mt-2">
+        <h1 class="text-center mt-2">Contacto</h1>
 
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <div class="contact-form mx-3">
                     <form id="contactForm">
-                        <div class="mb-3">
+                        <div class="mb-2">
                             <label for="name" class="form-label">Nombre</label>
                             <input type="text" class="form-control bg-black text-white" id="name" name="name" placeholder="Escribe tu nombre" required>
                         </div>
@@ -76,11 +67,11 @@
                             <label for="name" class="form-label">Apellidos</label>
                             <input type="text" class="form-control bg-black text-white" id="name" name="name" placeholder="Escribe tus apellidos" required>
                         </div>
-                        <div class="mb-3">
+                        <div class="mb-2">
                             <label for="email" class="form-label">Correo electrónico</label>
                             <input type="email" class="form-control bg-black text-white" id="email" name="email" placeholder="nombre@ejemplo.com" required>
                         </div>
-                        <div class="mb-3">
+                        <div class="mb-2">
                             <label for="message" class="form-label">Mensaje</label>
                             <textarea class="form-control bg-black text-white" id="message" name="message" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea>
                         </div>
@@ -94,7 +85,7 @@
             </div>
         </div>
         
-        <div class="text-center my-5">
+        <div class="text-center my-4">
             <a href="../index.html" class="btn btn-outline-light w-50">Inicio</a>
         </div>
     </div>
